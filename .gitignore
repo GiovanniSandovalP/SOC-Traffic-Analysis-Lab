@@ -216,3 +216,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Excluir archivos de captura pesados y ejecutables
+*.pcap
+*.pcapng
+*.cap
+*.zip
+*.exe
+*.dll
+
+# Excluir archivos del sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

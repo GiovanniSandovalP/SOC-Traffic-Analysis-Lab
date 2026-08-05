@@ -1,19 +1,20 @@
-#  SOC Analyst & Defensive Operations Portfolio
+# Defensive Security Operations & Traffic Analysis Labs
 
-**[Work in Progress}**
+## Executive Summary
+Technical repository documenting hands-on execution in defensive cybersecurity operations, threat hunting, and network traffic analysis. This project transitions theoretical frameworks into evidence-based artifacts, focusing on CLI inspection, IoC extraction, and standard-aligned incident reporting.
 
-##  Executive Summary
-Technical portfolio demonstrating practical competencies in defensive cybersecurity operations. This repository moves beyond theoretical knowledge, focusing on evidence-based execution in network analysis, automation, auditing, and incident response.
+## Core Labs & Modules
 
-##  Core Competencies & Labs
+* **[01] Network Traffic Analysis:** Packet inspection, C2 beaconing identification, and IoC extraction using `tshark` and Wireshark.
+* **[02] Log Parsing & Detection:** Automation via Python scripting for parsing auth logs and detecting brute-force patterns.
+* **[03] SQL Security Auditing:** Query-level analysis for vulnerability identification and unauthorized data access patterns.
+* **[04] Incident Response Frameworks:** Structuring technical evidence into executive reporting aligned with **NIST SP 800-61 Rev. 2**.
 
-*   **[01] Network Traffic Analysis:** Packet inspection, anomaly detection, and IOC extraction (Wireshark / tcpdump).
-*   **[02] Log Analysis Automation:** Python scripting for parsing and identifying malicious authentication attempts.
-*   **[03] SQL Security Audits:** Database querying to identify vulnerabilities and unauthorized access patterns.
-*   **[04] Incident Response (NIST 800-53):** Structuring technical findings into actionable, standard-aligned executive reports.
-
-## 🛠️ Tech Stack & Tools
-`Linux (Kali/Ubuntu)` | `Wireshark` | `Python 3` | `SQL` | `NIST Framework`
+##  Tech Stack & Tooling
+* **OS & Environment:** Linux (Ubuntu / WSL2)
+* **Analysis & Inspection:** Wireshark, TShark (CLI), `tcpdump`
+* **Scripting & Queries:** Python 3, SQL, Bash
+* **Frameworks:** NIST SP 800-61 Rev. 2, MITRE ATT&CK
 
 ---
-*Status: Currently executing practical labs. Full documentation and PoC (Proof of Concept) images will be added as each sprint completes.*
+**Status:** Active Execution | Documentation & Proof-of-Concept (PoC) artifacts updated per sprint.
